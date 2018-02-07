@@ -9,15 +9,9 @@
 	<body>
 		
 	<?php
-		echo 'Teste Tag padrao';
+		echo 'Teste de im pressao com echo<br/>';
+		print 'Teste de impressao com print';
 	?>
-	<?= Teste tag impressao'?>
-	<?=
-		echo 'Teste tag curta';
-	?>
-	<%
-		echo 'Asp tag';
-	%>
-
+	
 	</body>
 </html>

@@ -1,0 +1,19 @@
+O que sao variaveis?
+
+Tipos de Variaveis
+	int, float, string, boolean, array...
+
+Regras para declaracao de variaveis PHP
+	Devem obrigatoriamente iniciar com o caractere $
+	Nao podem ser iniciadas com espacos ou numeros
+	Nao e permitida a utilizacao de caracteres especiais (exceto o caractere "_")
+
+Nao requer ou suporta a definicao explicita de tipo
+
+Case sensetive
+
+	exemplos
+	Corretos
+	$nome,$Nome,$NOME,$fone,$fone_2
+	Incorretos
+	$ endereco, $1fone
