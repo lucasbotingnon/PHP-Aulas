@@ -18,7 +18,8 @@
 			</div>
   			<div class="row">
     			<div class="col-md-4">
-    				<form role="form">
+    				<!-- get passa um value para o url -->
+    				<form role="form" action="catalogo_produtos.php" method="get">
 					  <div class="form-group">
 					    <label for="Produto">Nome do produto:</label>
 					    <select class="form-control" name="id_produto" id="id_produto">
@@ -33,6 +34,26 @@
     			</div>
     			<div class="col-md-4"></div>
     			<div class="col-md-4"></div>
+  			</div>
+  			<div class="row">
+  				<h1>Detalhes do Produto</h1>
+  			</div>
+  			<div class="row">
+  				<div class="col-md-4">
+  					<?php 
+
+  					// pega a chave do id_produto
+  					$id_produto = $_GET['id_produto'];
+
+
+  					$detalhes[1] = "Detalhes das cadeiras";
+  					$detalhes[2] = "Detalhes do Fogao";
+  					$detalhes[3] = "Detalhes do roteador";
+  					$detalhes[4] = "Detalhes da tv";
+
+  					echo $detalhes[$id_produto];
+  					?>
+  				</div>
   			</div>
 		</div>
 	</body>
